@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data files (EDF and CSV/NPZ) - too large for GitHub
+*.edf
+*.EDF
+*.npz
+*.csv
+*.txt
+!README.md
+!requirements.txt
+
+# IDE settings
+.vscode/
+.cursor/
+.idea/
+
+# Graphics
+*.png
+*.jpg
+*.pdf
