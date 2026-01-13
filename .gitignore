@@ -11,11 +11,14 @@ __pycache__/
 # Data files (EDF and CSV/NPZ) - too large for GitHub
 *.edf
 *.EDF
-*.npz
+full_dataset_v2.npz
 *.csv
-*.txt
-!README.md
-!requirements.txt
+# AI_HINTS_*.txt are results, usually small enough
+# !AI_HINTS_*.txt 
+
+# Allow model weights and normalization params
+!spindlenet_v2.pt
+!norm_params.npz
 
 # IDE settings
 .vscode/
